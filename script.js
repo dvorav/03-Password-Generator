@@ -1,53 +1,53 @@
 // Generate lowercase letter 
-function RandomLowercase() {
+function randomLowercase() {
   let lowerAlp = "abcdefghijklmnopqrstuvwxyz";
   let arrLower = lowerAlp.split('');
   //Generate random lower
   let randLow = arrLower[Math.floor(Math.random()*26)];
   return randLow;
-
 };
-let lower = RandomLowercase();
+
+let lower = randomLowercase();
 
 
 // Generate uppercase letter
-function RandomUppercase() {
+function randomUppercase() {
 let upperAlp = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 let arrUpp = upperAlp.split('');
 //Generate random upper
 let randUpp = arrUpp[Math.floor(Math.random()*26)];
 return randUpp;
 };
-let upper = RandomLowercase();
+let upper = randomLowercase();
 
 
 //Generate number 
-function RandomNumber() {
+function randomNumber() {
   let num = "1234567890";
   let arrNum = num.split('');
   //Generate random number
   let randNum = arrNum[Math.floor(Math.random()*arrNum.length)];
   return randNum;
 };
-let number = RandomNumber();
+let number = randomNumber();
 
 
 //Generate special character 
-function RandomSpecial() {
+function randomSpecial() {
   let specChar =  "!\"#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
   let arrSpec = specChar.split('');
   //Generate random symbol
   let randSpec = arrSpec[Math.floor(Math.random()*arrSpec.length)];
   return randSpec;
 };
-let special = RandomSpecial();
+let special = randomSpecial();
 
 
 const random = {
-  lower : RandomLowercase,
-  upper : RandomUppercase,
-  number : RandomNumber,
-  special : RandomSpecial,
+  lower : randomLowercase,
+  upper : randomUppercase,
+  number : randomNumber,
+  special : randomSpecial,
   
 };
 
