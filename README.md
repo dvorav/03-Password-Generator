@@ -4,7 +4,7 @@ This project is designed to generate a password based on the critieras selected 
 
 
 
-![FirstPrompt](/image/numberCharacter.PNG)
+![FirstPrompt](/image/numberCharacter.png)
 ![jfojfsf](image/uppercase.PNG)
 ![FirstPrompt](image/lowercase.PNG)
 ![FirstPrompt](image/number.PNG)
